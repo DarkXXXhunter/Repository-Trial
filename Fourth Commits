@@ -1,1 +1,30 @@
+git config-- global user. name Jovan
+git config-- global user.email jovanlomoljo.work@gmail.com
 
+
+echo trial > file1.txt
+git add file1.txt
+git commit -m testing
+
+
+echo trial2 > file1.txt
+git add file1.txt
+git commit -m testing2
+
+echo trial3 > file1.txt
+git add file1.txt
+git commit -m testing3
+
+
+echo trial4 > file1.txt
+git add file1.txt
+git commit -m testing4
+
+echo trial5 > file1.txt
+git add file1.txt
+git commit -m testing5
+
+
+git remote add origin https://github.com/DarkXXXhunter/Repository-Trial.git
+git branch -M main
+git push -u origin main
