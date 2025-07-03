@@ -28,3 +28,11 @@ git commit -m testing5
 git remote add origin https://github.com/DarkXXXhunter/Repository-Trial.git
 git branch -M main
 git push -u origin main
+
+echo "Update 1" >> file1.txt
+git add file1.txt
+git commit -m "Update file1.txt with update 1"
+
+echo "Update 2" >> file1.txt
+git add file1.txt
+git commit -m "Update file1.txt with update 2"
